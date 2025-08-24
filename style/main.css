@@ -54,9 +54,13 @@
 }
 
 .story-block-container {
-  display: flex;
-  justify-content: space-between;
+  overflow: auto;
+  white-space: nowrap;
   margin-bottom: 15px;
+}
+
+.story-block-container::-webkit-scrollbar {
+  display: none;
 }
 
 .story-block{
@@ -64,7 +68,8 @@
   width: 115px;
   height: 180px;
   border-radius: 10px;
-  
+  margin-right: 8px;
+  display: inline-block;
 }
 
 .posted-block {
