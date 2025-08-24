@@ -1,0 +1,48 @@
+.rightbar {
+  background-color: rgb(28, 30, 33);
+  position: fixed;
+  top: 65px;
+  bottom: 0px;
+  right: 0px;
+
+  width: 255px;
+  padding-top: 18px;
+
+  transition: display 0.15s;
+}
+
+@media (max-width: 955px) {
+  .rightbar {
+    display: none;
+  }
+}
+
+.rightbar-top {
+  font-weight: bold;
+  font-size: 18px;
+  color: gray;
+}
+
+.ad {
+  padding-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ad .img {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.ad-info {
+  flex: 1;
+  color: white;
+}
+
+.adLink {
+  font-size: 12px;
+  color: gray;
+}

@@ -1,0 +1,94 @@
+.header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(28, 30, 33);
+        height: 60px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid gray;
+        z-index: 50;
+      }
+
+      .app-logo {
+        border-radius: 50%;
+        margin-right: 6px;
+        width: 50px;
+      }
+
+      .header-left-section {
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      .search-icon {
+        background-color: rgb(51, 51, 52);
+        padding: 9px;
+        border-radius: 50%;
+        width: 30px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+      }
+
+      .search-icon:hover {
+        background-color: rgb(128, 128, 130);
+      }
+
+      .header-mid-section{
+        display: flex;
+        align-items: center;
+        transition: display 0.15s;
+      }
+
+      @media (max-width: 800px) {
+        .header-mid-section {
+          display: none;
+        }
+      }
+
+      .header-mid-section img {
+        height: 100%;
+        width: 40px;
+        padding-left: 26px;
+        padding-right: 26px;
+        border-radius: 5px;
+        transition: background-color 0.15s
+      }
+
+      .header-mid-section img:hover {
+        background-color:  rgb(97, 97, 99);
+      }
+
+      .header-right-section {
+        display: flex;
+        align-items: center;
+        padding-right: 15px;
+      }
+
+      .hamburger-icon,
+      .block-icon,
+      .notif-icon {
+        width: 29px;
+        border-radius: 50%;
+        background-color: rgb(51, 51, 52);
+        padding: 6px;
+        margin-right: 6px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+      }
+
+      .hamburger-icon:hover,
+      .block-icon:hover,
+      .notif-icon:hover {
+        background-color: rgb(128, 128, 130);
+      }
+
+      .profile-picture {
+        padding: 0;
+        border-radius: 50%;
+        width: 41px;
+      }
