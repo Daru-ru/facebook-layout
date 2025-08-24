@@ -11,6 +11,12 @@
   }
 }
 
+@media (max-width: 450px) {
+  .main {
+    width: 350px;
+  }
+}
+
 .post-block {
   background-color: rgb(68, 66, 66);
   border-radius: 8px;
